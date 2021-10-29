@@ -1,0 +1,49 @@
+body{
+    background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+}
+   
+
+.img-producao{
+    width: 500px;
+    height: 316px;
+    display: block;
+    max-width: 100%;    
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.img-warehouse{
+    width: 300px;
+    height: 300px;
+    display: block;
+    max-width: 100%;    
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.title{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 27px;
+    letter-spacing: 0.2px;
+    word-spacing: 0.6px;    
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    left: 0;
+    letter-spacing: 0;
+    position: relative;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+
+a:link, a:visited, a:active {
+	text-decoration:none;
+    color:rgb(255, 255, 255);
+	}
+a:hover {	
+	color:rgb(117, 117, 117);	    
+	}
+
