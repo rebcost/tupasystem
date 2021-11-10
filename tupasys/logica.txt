@@ -1,0 +1,19 @@
+criar um metodo form para:
+- exibir uma url personalisada (medidor/nome_da_area)
+    @app.route(medidor/<nome_da_area>, methods=['GET', 'POST'])
+
+- Nome e Imagem correspondente ao setor
+    # No arquivo forms 
+    1 - Classe FormSetor(FlaskForm)
+    1.1 - nome_setor - StringField()
+    1.2 - imagem_setor - FileField()
+
+    # No arquivo Routes
+    2 - Função mostrar_setor()
+    2.1 - Variavel form = FormSetor()
+    2.2 - Variavel form.imagem_setor =  url_for('static', filename='images/{}'.format(warehouse))
+    2.3 - Varievel form.nome_setor = titulo h1 pagina
+    2.4 - return render_template("medidor.html", nome_setor=nome_setor, imagem_setor=imagem_setor)
+
+
+    

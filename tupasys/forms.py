@@ -1,0 +1,2 @@
+class FormSetor(FlaskForm):    
+    pass
